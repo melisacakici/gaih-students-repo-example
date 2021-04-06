@@ -7,3 +7,11 @@ l = len(list)
 m=l//2
 list[:m],list[m:] = list[m:],list[:m] 
 print(list)
+
+#Question 2: 
+
+n = input("Please input an one digit integer variable: ")
+
+for i in range(int(n)):
+    if i%2==0:
+        print(i)
