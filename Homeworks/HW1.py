@@ -10,8 +10,8 @@ print(list)
 
 #Question 2: 
 
-n = input("Please input an one digit integer variable: ")
+n = input("Please input a single digit integer : ")
 
-for i in range(int(n)):
+for i in range(int(n)+1):
     if i%2==0:
         print(i)
